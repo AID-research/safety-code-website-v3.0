@@ -16,4 +16,4 @@ Find out more about the U-PGx project <a href="http://www.upgx.eu" target="_blan
 Blagec et al.: <a href="https://doi.org/10.1093/jamia/ocy005" target="_blank"><b>„Implementing Pharmacogenomics Decision Support across Seven European Countries: The Ubiquitous Pharmacogenomics (U-PGx) Project“</b></a> Journal of the American Medical Informatics Association, Feb 9 2018.<br>
 <a href="/landing-page-theme/docs/ESPT_2017_Poster.pdf" target="_blank">Poster</a><br>
 <a href="https://youtu.be/X2KK_FfsrS4" target="_blank">U-PGx video</a>
-<div align="center"><img src="/landing-page-theme/img/flag_yellow_low.jpg" width="60"></div>  The U-PGx project is funded by the European Community’s Horizon 2020 Programme under grant agreement No. 668353
+<div align="center"><img src="{{ site.baseurl }}/landing-page-theme/img/flag_yellow_low.jpg" width="60"></div>  The U-PGx project is funded by the European Community’s Horizon 2020 Programme under grant agreement No. 668353
