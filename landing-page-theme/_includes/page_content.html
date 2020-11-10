@@ -1,0 +1,52 @@
+<section id="references">
+<!-- Page Content -->
+
+{% for post in site.posts %}
+    {% if post.categories contains "references" %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+  		<div class="entry-content">
+
+        <div class="container">
+<div class="arrow_box_grey" style="z-index: 8;">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">{{ post.title }}</h4>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive img-circle" src="/landing-page-theme/img/references/{{ post.img }}" alt="" width="300" height="300">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+
+    <!-- /.content-section-b -->
+    {% else %}
+
+<div class="arrow_box_grey" style="z-index: 8;">
+
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-4  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h4 class="section-heading">{{ post.title }}</h4>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-4 col-sm-pull-6  col-sm-4">
+                  <img class="img-responsive img-circle" src="/landing-page-theme/img/references/{{ post.img }}" alt=""  width="300" height="300">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+        </div></div></div></section>
+    <!-- /.content-section-a -->
+    {% endif %}
+    {% endif %}
+{% endfor %}
+</section>

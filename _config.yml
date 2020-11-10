@@ -1,0 +1,36 @@
+# Theme settings
+doks:
+    relative_url: /safety-code-website-v3.0
+    #baseurl: ""
+    color_theme: /
+    header:
+        logo:
+            text: Medication Safety Code Initiative
+            image:
+        nav:
+            - item_name:
+              item_url:
+            - item_name:
+              item_url:
+    footer:
+        content:
+            logo:
+                text: Medication Safety Code Initiative
+                image:
+            copyright: Copyright 2016-2020 Dr. Matthias Samwald. All rights reserved unless stated otherwise. Disclaimer The MSC system is a research prototype. It is solely intended for research purposes and may not be used to treat, prevent or diagnose illness or disease. Institutions and companies interested in the MSC system are kindly asked tocontact us.
+        social_list:
+    google_analytics:
+        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+
+# SASS settings
+#sass:
+#    sass_dir: landing-page-theme/_sass
+#    style: :compressed
+
+# Jekyll settings
+layouts_dir: landing-page-theme/_layouts
+includes_dir: landing-page-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
