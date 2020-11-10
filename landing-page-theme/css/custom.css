@@ -1912,7 +1912,7 @@ p.arconix-faq-term-description {
 }
 
 .arconix-faq-title {
-    background: transparent url("http://safety-code.org/wp-content/uploads/2015/12/plus.png") no-repeat scroll left center;
+    background: transparent url("{{ site.baseurl }}/landing-page-theme/img/plus.png") no-repeat scroll left center;
     cursor: pointer;
     font-size: 15px;
     padding: 0 0 0 30px;
@@ -1920,7 +1920,7 @@ p.arconix-faq-term-description {
 }
 
 .arconix-faq-title.faq-open {
-    background: transparent url("http://safety-code.org/wp-content/uploads/2015/12/minus.png") no-repeat scroll left center;
+    background: transparent url("{{ site.baseurl }}/landing-page-theme/img/minus.png") no-repeat scroll left center;
 	font-weight: bold;
 	}
 .arconix-faq-content {
