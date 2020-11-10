@@ -1,7 +1,7 @@
 # Theme settings
 doks:
     relative_url: /safety-code-website-v3.0/site
-    #baseurl: ""
+    baseurl: /safety-code-website-v3.0/site
     color_theme: /
     header:
         logo:
