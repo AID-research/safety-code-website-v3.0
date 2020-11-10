@@ -3,8 +3,10 @@ doks:
     baseurl: /safety-code-website-v3.0/site
     color_theme: /
     header:
+        title: Medication Safety Code Initiative
+        description:
         logo:
-            text: Medication Safety Code Initiative
+            text:
             image:
         nav:
             - item_name:
@@ -23,10 +25,10 @@ doks:
     comments:
         disqus_forum_shortname: # Add your disqus forum shortname to activate comments
 
-# SASS settings
-#sass:
-#    sass_dir: landing-page-theme/_sass
-#    style: :compressed
+#SASS settings
+sass:
+    sass_dir: landing-page-theme/_sass
+    style: :compressed
 
 # Jekyll settings
 layouts_dir: landing-page-theme/_layouts
