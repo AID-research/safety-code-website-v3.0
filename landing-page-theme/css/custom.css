@@ -5,6 +5,11 @@ html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote
     padding: 0;
     vertical-align: baseline;
 }
+
+p {
+  margin: 0 0 0px;
+}
+
 body {
     line-height: 1;
     background: #fafafa;
@@ -567,8 +572,8 @@ footer[role="contentinfo"] a:hover {
 	border-radius: 30px;
 	background: #fefefe;
 	width: 100%;
-	padding-bottom:50px;
-	padding-top:50px;
+	padding-bottom:10px;
+	padding-top:30px;
 	margin: 50px;
 	text-align: justify;
 	border:1px solid #EBEBEB;
@@ -628,8 +633,8 @@ footer[role="contentinfo"] a:hover {
 	background: #ffffff;
 	text-align: justify;
 	width:100%;
-	padding-bottom:50px;
-	padding-top:50px;
+	padding-bottom:30px;
+	padding-top:30px;
 	margin: 0px;
 	border:0px solid #EBEBEB;
 	border-radius:10px;
