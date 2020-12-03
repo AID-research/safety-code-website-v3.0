@@ -544,6 +544,7 @@ footer[role="contentinfo"] a:hover {
 }
 .entry-content, .entry-summary, .mu_register {
     line-height: 1.71429;
+    margin: 60px;
 }
 .entry-content h1{
     color: #4c8bb3;
@@ -559,9 +560,10 @@ footer[role="contentinfo"] a:hover {
 	border-radius: 30px;
 	background: #fefefe;
 	width: 100%;
-	padding-bottom:30px;
-	padding-top:30px;
-	margin: 50px;
+	padding-bottom:0px;
+	padding-top:15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	text-align: justify;
 	border:1px solid #EBEBEB;
 	border-radius:10px;
@@ -1466,6 +1468,7 @@ input[type="text"], input[type="email"], textarea
 	-ms-border-radius:10px;
 	margin-bottom:10px;
 }
+
 
 .entry-content p, .entry-summary p, .comment-content p, .mu_register p {
     line-height: 1.71429;
