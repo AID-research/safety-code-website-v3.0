@@ -559,7 +559,7 @@ footer[role="contentinfo"] a:hover {
 	border-radius: 30px;
 	background: #fefefe;
 	width: 100%;
-	padding-bottom:10px;
+	padding-bottom:30px;
 	padding-top:30px;
 	margin: 50px;
 	text-align: justify;
@@ -1422,6 +1422,11 @@ input[type="text"], input[type="email"], textarea
     width: 70%;
 }
 
+
+.arrow_box_grey {
+    width: 80%;
+}
+
 .wpcf7-submit
 {
     background-color: #ffffff;
@@ -1543,7 +1548,9 @@ body.template-front-page .site-content, body.single-attachment .site-content, bo
 
 }
 
-
+.arrow_box_grey {
+    width: 80%;
+}
 
 .entry-content pre, .comment-content pre {
 
@@ -1700,7 +1707,9 @@ body.custom-background-empty .site, body.custom-background-white .site {
     border-bottom: medium none;
     border-top: medium none;
     display: none;
+
 }
+
 
 
 }
@@ -1961,6 +1970,7 @@ details summary::-webkit-details-marker {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+
 }
 
 .carousel-fade .carousel-inner .item {
