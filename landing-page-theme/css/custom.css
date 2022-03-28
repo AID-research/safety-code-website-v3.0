@@ -631,6 +631,7 @@ footer[role="contentinfo"] a:hover {
 	-moz-border-radius:10px;
 	-o-border-radius:10px;
 	-ms-border-radius:10px;
+    margin-top:15px;
 
 }
 
@@ -1424,11 +1425,6 @@ input[type="text"], input[type="email"], textarea
     width: 70%;
 }
 
-
-.arrow_box_grey {
-    width: 80%;
-}
-
 .wpcf7-submit
 {
     background-color: #ffffff;
@@ -2041,7 +2037,7 @@ nav {
 
 .navbar-toggle {
     width: auto;
-    margin-left: 10px;
+    margin-left: 15px;
     float: left;
 }
 
