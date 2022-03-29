@@ -1490,6 +1490,7 @@ input[type="text"], input[type="email"], textarea
 }
 
 }
+
 @media screen and (max-width: 420px) {
 
 .site-content {
@@ -1546,10 +1547,6 @@ body.template-front-page .site-content, body.single-attachment .site-content, bo
 	width: 90%;
 	margin: 0 5px 5px 5px;
 
-}
-
-.arrow_box_grey {
-    width: 80%;
 }
 
 .entry-content pre, .comment-content pre {
