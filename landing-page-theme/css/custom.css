@@ -544,7 +544,6 @@ footer[role="contentinfo"] a:hover {
 }
 .entry-content, .entry-summary, .mu_register {
     line-height: 1.71429;
-    margin: 60px;
 }
 .entry-content h1{
     color: #4c8bb3;
@@ -576,7 +575,6 @@ footer[role="contentinfo"] a:hover {
 
 .front-box {
 	background-color: #fefefe;
-    width: 310px;
     height: 220px;
 	border:1px solid #EBEBEB;
 	border-radius:10px;
@@ -584,6 +582,8 @@ footer[role="contentinfo"] a:hover {
 	-moz-border-radius:10px;
 	-o-border-radius:10px;
 	-ms-border-radius:10px;
+    margin-left:5px;
+    margin-right:5px;
 }
 
 
@@ -631,6 +631,7 @@ footer[role="contentinfo"] a:hover {
 	-moz-border-radius:10px;
 	-o-border-radius:10px;
 	-ms-border-radius:10px;
+    margin-top:15px;
 
 }
 
@@ -1424,11 +1425,6 @@ input[type="text"], input[type="email"], textarea
     width: 70%;
 }
 
-
-.arrow_box_grey {
-    width: 80%;
-}
-
 .wpcf7-submit
 {
     background-color: #ffffff;
@@ -1458,7 +1454,6 @@ input[type="text"], input[type="email"], textarea
 
 .front-box {
 	background-color: #fefefe;
-    width: 240px;
     height: 210px;
 	border:1px solid #EBEBEB;
 	border-radius:10px;
@@ -1467,6 +1462,8 @@ input[type="text"], input[type="email"], textarea
 	-o-border-radius:10px;
 	-ms-border-radius:10px;
 	margin-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
 }
 
 
@@ -2038,6 +2035,11 @@ nav {
 }
 
 
+.navbar-toggle {
+    width: auto;
+    margin-left: 15px;
+    float: left;
+}
 
 nav ul {
   list-style: none;
